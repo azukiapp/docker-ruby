@@ -27,7 +27,7 @@ systems({
     // Dependent systems
     depends: [],
     // More images:  http://images.azk.io
-    image: { docker: "ruby:2.1" },
+    image: { docker: "azukiapp/ruby" },
     // Steps to execute before running instances
     provision: [
       "bundle install --path /azk/bundler",

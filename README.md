@@ -1,10 +1,10 @@
-[azukiapp/ruby:2.1](https://registry.hub.docker.com/u/azukiapp/ruby/)
+[azukiapp/ruby](https://registry.hub.docker.com/u/azukiapp/ruby/)
 ================
 
 Base docker image to run Ruby applications
 
 - Git
-- Ruby 2.1.2
+- Ruby `2.2` (and `1.9`, `2.0`, `2.1`)
 - RubyGems 2.3.0
 - Bundler
 - NodeJS
@@ -53,13 +53,4 @@ systems({
   },
 });
 
-```
-
-Building the base image
------------------------
-
-To create the base image `azukiapp/ruby:2.1`, execute the following command on the `ruby/2.1` folder:
-
-```sh
-$ docker build -t azukiapp/azukiapp/ruby:2.1 .
 ```

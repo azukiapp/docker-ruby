@@ -18,7 +18,7 @@ Image content:
 - Git
 - VIM
 - NodeJS
-- NPM
+- npm
 - Ruby
 - Bundle
 - ImageMagick
@@ -31,7 +31,7 @@ Database:
 
 ### Usage with `azk`
 
-Example of using that image with the [azk](http://azk.io):
+Example of using this image with [azk](http://azk.io):
 
 ```js
 /**
@@ -72,7 +72,6 @@ systems({
   },
 });
 ```
-
 
 ### Usage with `docker`
 

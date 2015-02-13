@@ -10,6 +10,7 @@ Versions (tags)
 - [`2.1`, `2.1.2`](https://github.com/azukiapp/docker-ruby/blob/master/2.1/Dockerfile)
 - [`2.0`, `2.0.0`, `2.0.0-p598`](https://github.com/azukiapp/docker-ruby/blob/master/2.0/Dockerfile)
 - [`1.9`, `1.9.3`, `1.9.3-p551`](https://github.com/azukiapp/docker-ruby/blob/master/1.9/Dockerfile)
+- [`1.8`, `1.8.7`, `1.8.7-p374`](https://github.com/azukiapp/docker-ruby/blob/master/1.8/Dockerfile)
 
 Image content:
 ---
@@ -37,7 +38,7 @@ Example of using this image with [azk](http://azk.io):
 /**
  * Documentation: http://docs.azk.io/Azkfile.js
  */
- 
+
 // Adds the systems that shape your system
 systems({
   "my-app": {

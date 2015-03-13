@@ -9,13 +9,6 @@
 FROM azukiapp/node
 MAINTAINER Azuki <support@azukiapp.com>
 
-# Install imagemagick
-RUN  apt-get update -qq \
-  && apt-get install -y -qq \
-      imagemagick \
-  && apt-get clean -qq \
-  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
 ENV RUBY_MAJOR 1.9
 ENV RUBY_VERSION 1.9.3-p551
 

@@ -58,8 +58,8 @@ systems({
     command: "bundle exec rackup config.ru --pid /tmp/ruby.pid --port $HTTP_PORT --host 0.0.0.0",
     wait: {"retry": 20, "timeout": 1000},
     mounts  : {
-      '/azk/#{manifest.dir}': {type: 'path', value: '.'},
-      '/azk/bundler'        : {type: 'persistent', value: 'bundler'},
+      '/azk/#{manifest.dir}': path('.'),
+      '/azk/bundler'        : persistent('bundler'),
     },
     scalable: {"default": 2},
     http: {

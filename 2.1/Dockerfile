@@ -1,7 +1,7 @@
 # The container includes:
 #
 # azukiapp/ruby:
-# * MRI Ruby 2.1.2
+# * MRI Ruby 2.1.4
 # * Bundler
 # * Image Magick
 #
@@ -17,7 +17,7 @@ RUN  apt-get update -qq \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENV RUBY_MAJOR 2.1
-ENV RUBY_VERSION 2.1.2
+ENV RUBY_VERSION 2.1.4
 
 # Set $PATH so that non-login shells will see the Ruby binaries
 ENV PATH $PATH:/opt/rubies/ruby-$RUBY_VERSION/bin

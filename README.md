@@ -72,7 +72,7 @@ systems({
     },
     envs: {
       // set instances variables
-      RUBY_ENV : 'development',
+      RACK_ENV : 'development',
       BUNDLE_APP_CONFIG : '/azk/bundler',
     }
   },

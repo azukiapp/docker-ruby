@@ -8,6 +8,7 @@ Versions (tags)
 
 <versions>
 - [`latest`, `2`, `2.2`, `2.2.2`](https://github.com/azukiapp/docker-ruby/blob/master/2.2/Dockerfile)
+- [`2.2.0`](https://github.com/azukiapp/docker-ruby/blob/v2.2.0/2.2/Dockerfile)
 - [`2.1`, `2.1.4`](https://github.com/azukiapp/docker-ruby/blob/master/2.1/Dockerfile)
 - [`2.1.2`](https://github.com/azukiapp/docker-ruby/blob/v2.1.2/2.1/Dockerfile)
 - [`2.0`, `2.0.0`, `2.0.0-p598`](https://github.com/azukiapp/docker-ruby/blob/master/2.0/Dockerfile)

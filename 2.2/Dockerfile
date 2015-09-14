@@ -1,7 +1,7 @@
 # The container includes:
 #
 # azukiapp/ruby:
-# * MRI Ruby 2.2.2
+# * MRI Ruby 2.2.3
 # * Bundler
 # * Image Magick
 #
@@ -10,7 +10,7 @@ FROM azukiapp/node
 MAINTAINER Azuki <support@azukiapp.com>
 
 ENV RUBY_MAJOR 2.2
-ENV RUBY_VERSION 2.2.2
+ENV RUBY_VERSION 2.2.3
 
 # Set $PATH so that non-login shells will see the Ruby binaries
 ENV PATH $PATH:/opt/rubies/ruby-$RUBY_VERSION/bin

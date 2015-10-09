@@ -31,7 +31,7 @@ RUN curl -O http://ftp.ruby-lang.org/pub/ruby/$RUBY_MAJOR/ruby-$RUBY_VERSION.tar
 # ==============================================================================
 
 ENV RUBYGEMS_MAJOR 2.3
-ENV RUBYGEMS_VERSION 2.3.0
+ENV RUBYGEMS_VERSION 2.4.8
 
 # Install rubygems and bundler
 ADD http://production.cf.rubygems.org/rubygems/rubygems-$RUBYGEMS_VERSION.tgz /tmp/

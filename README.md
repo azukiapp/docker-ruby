@@ -30,6 +30,9 @@ Image content:
 - Ruby
 - Bundle
 - ImageMagick
+- Webkit
+- QT4
+- PHANTOMJS
 
 Database:
 

@@ -7,7 +7,8 @@ Versions (tags)
 ---
 
 <versions>
-- [`latest`, `2`, `2.2`, `2.2.3`](https://github.com/azukiapp/docker-ruby/blob/master/2.2/Dockerfile)
+- [`latest`, `2`, `2.3`, `2.3.0`](https://github.com/azukiapp/docker-ruby/blob/master/2.3/Dockerfile)
+- [`2.2`, `2.2.3`](https://github.com/azukiapp/docker-ruby/blob/master/2.2/Dockerfile)
 - [`2.2-node12`](https://github.com/azukiapp/docker-ruby/blob/master/2.2-node12/Dockerfile)
 - [`2.2.2`](https://github.com/azukiapp/docker-ruby/blob/2.2.2/2.2/Dockerfile)
 - [`2.2.0`](https://github.com/azukiapp/docker-ruby/blob/v2.2.0/2.2/Dockerfile)
@@ -86,7 +87,7 @@ systems({
 To create the image `azukiapp/ruby`, execute the following command on the docker-ruby folder:
 
 ```sh
-$ docker build -t azukiapp/ruby 2.2/
+$ docker build -t azukiapp/ruby 2.3/
 ```
 
 To run the image and bind to port 3000:
